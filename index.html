@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <title>MUSE | HOME</title>
+		<link rel="icon" type="image/x-icon" href="images/logo.png">
+
+		<meta charset="utf-8">
+
+		<meta name="keywords" content="MUSE, cosmetics, make-up"/>
+
+		<meta name="author" content="Sherlyn Andrews"/>
+
+		<meta name="description" content="Find a new product tailored for you"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	 <!-- Import the web page's style sheet -->
+		
+		<link rel="stylesheet" href="css/style.css">
+		<script src="https://kit.fontawesome.com/ab3ad18ef2.js" crossorigin="anonymous"></script>
+
+  
+</head>
+	
+<body>
+	
+	<nav class="navbar">
+		<ul class="nav-links">
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="page2.html">ABOUT</a></li>
+			<li><a href="page3.html">SHOP</a></li>
+			<li><a href="page4.html">BYO</a></li>
+			<li><a href="page5.html">CONTACT</a></li>	
+		</ul>
+		
+	</nav>
+	
+	<div class="main-header">
+		<div class="container">
+		</div>
+	</div>
+	
+	
+	<section id="question">
+		<div class="container">
+			<h1>"Lorem ipsum dolor sit amet, consectetur adipiscing?"</h1>
+			<h2> - Nam volutpat, dolor in auctor interdum</h2>
+			<p>rci erat efficitur dolor, elementum tempor orci dolor sodales tortor. Sed ornare pretium metus,</p><br>
+			<p>NEC EX LOREM</p>
+		</div>
+	</section>
+	
+	<section id="explore">
+	  <div class="container">
+			<div class="slider-images">
+				<div class="slider-img">
+					<img src="images/placeholder.webp" alt="3">
+					<h1>Card 1</h1>
+					<div class="details">
+						<h2>Card 3</h2>
+						<p>Add details</p>
+					</div>
+				</div>
+				<div class="slider-img">
+					<img src="images/placeholder.webp" alt="4">
+					<h1>Card 2</h1>
+					<div class="details">
+						<h2>Card 4</h2>
+						<p>Add details</p>
+					</div>
+				</div>
+				<div class="slider-img">
+					<img src="images/placeholder.webp" alt="5">
+					<h1>Card 3</h1>
+					<div class="details">
+						<h2>Card 5</h2>
+						<p>Add details</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+		<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script><!-- jQuery library link, java script below needs this library to work -->
+	
+	
+	 <script>
+	 $(document).ready(function() {
+    $('.slider-img').on('click', function() {		
+      $('.slider-img').css({
+        width: '300px',
+        height: '', 
+        zIndex: '',
+      });
+
+      // when the card is clicked it expands
+      $(this).css({
+        width: '400px',
+        height: '500px',
+        zIndex: 10
+      });
+    });
+  });
+</script> 
+	
+	
+	<section id="market">
+		<div class="container">
+			<div class="text">
+				<h1>aliquam lig ula sit amet vehicuah!</h1>
+			</div>
+				<div class="image">
+					<img src="images/placeholder.webp" alt="placeholder image"><!--Note: always add alt for people who use screen readers for accessbility-->
+				</div>
+		</div>
+	</section>
+	
+	<footer>
+		<div class="container">
+			<div class="logo">
+				<h1>LOGO GOES HERE</h1>
+			</div>
+				<div class="quicklinks">
+				<h2>Links</h2>
+		</div>
+
+			<div class="quicklinks2">
+				<h2>Links2</h2>
+			</div>
+
+			<div class="contact">
+				<h2>Contact</h2>
+				<ul class="info">
+				</ul>
+			</div>
+		</div>
+	</footer>	
+	
+</body>
