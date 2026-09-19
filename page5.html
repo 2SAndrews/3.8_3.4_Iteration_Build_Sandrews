@@ -6,7 +6,8 @@
 <head>
 
     <title>MUSE | PRE-ORDER</title>
-		<link rel="icon" type="image/x-icon" href="images/logo.png">
+	
+		<link rel="icon" type="image/x-icon" href="images/muselogo.png">
 
 		<meta charset="utf-8">
 
@@ -21,7 +22,7 @@
 	
 	 <!-- Import the web page's style sheet -->
 		
-		<link rel="stylesheet" href="css/order.css">
+		<link rel="stylesheet" href="css/preorder_v3.css">
 		<script src="https://kit.fontawesome.com/ab3ad18ef2.js" crossorigin="anonymous"></script>
 
   
@@ -29,105 +30,189 @@
 	
 <body>
 	
+	<nav class="navbar">
+		<ul class="nav-links">
+			<li><a href="index_v3.html">HOME</a></li>
+			<li><a href="page2_v3.html">ABOUT</a></li>
+			<li><a href="page3_v5.html">PRODUCTS</a></li>
+			<li><a href="page5_v3.html">PRE-ORDER</a></li>
+			<li><a href="page6_v3.php">CONTACT</a></li>
+		</ul>	
+	</nav>
+	
 	<div id="header">
+		<div class="head">
+			<div class="text-box">
+				<h1>PRE-ORDER</h1>
+			</div>
+		</div>
 	</div>
 	
 	<div class="pre-order">
-		
-		<div class="container">
-			<h1>LOREM IPSUM SOL AND LUNE</h1>
+		<div class="headliner">
+			<h1>SELECT A <span style="color:#edc224">SOL</span> OR <span style="color:#828282">LUNE</span> MUSE DUO!</h1>
 		</div>
 		
-		<div class="selection-area">
-			<div class="order-image">
-				<img src="images/placeholder.webp" alt ="placeholder">
-			</div>
+			<div class="selection-area">
+					<div class="order-image">
+						<img src="images/sol.jpg" alt ="placeholder">
+					</div>
 		
-		<div class="selection-option">
+						<div class="selection-options">
 
-<!--SOL AND LUNE option-->
+						<!--SOL AND LUNE option-->
 			
-			<h2>SOL OR LUNE</h2>
-			<div class="select-box">
-				<div class="options-container">
+								<h2>SOL OR LUNE:</h2>
+							<div class="select-box">
+								<div class="options-container">
 
-					<div class="option">
-						<input type="radio" class="radio" id="select" name="category">
-							<label for="select"></label>
-					</div>
-					<div class="option">
-						<input type="radio" class="radio" id="option1" name="category">
-							<label for="option1">option 1</label>
-					</div>
+									<div class="option">
+										<input type="radio" class="radio" id="select" name="category">
+											<label for="select">Select the category</label>
+									</div>
+									<div class="option">
+										<input type="radio" class="radio" id="option1" name="category">
+											<label for="SOL">SOL</label>
+									</div>
 
-					<div class="option">
-						<input type="radio" class="radio" id="option2" name="category">
-							<label for="option2">option 2</label>
-					</div>
+									<div class="option">
+										<input type="radio" class="radio" id="option2" name="category">
+											<label for="LUNE">LUNE</label>
+									</div>
 
-				</div>
+								</div>
 
-				<div class="selected">
-					Select the category
-				</div>
-			</div>
+									<div class="selected">
+										Select Product
+									</div>
+							</div>
 
-<!--Lip color options-->
+		<!--Lip color options-->
 		
-			<h2>LIP COLOR</h2>
-			<div class="select-box">
-				<div class="options-container">
+								<h2>LIP COLOR:</h2>
 
-					<div class="option">
-						<input type="radio" class="radio" id="select" name="category">
-							<label for="select"></label>
-					</div>
-					<div class="option">
-						<input type="radio" class="radio" id="option1" name="category">
-							<label for="option1">option 1</label>
-					</div>
 
-					<div class="option">
-						<input type="radio" class="radio" id="option2" name="category">
-							<label for="option2">option 2</label>
-					</div>
+								<!--Sol lip-colors-->
+								<div class="colors">
+									<div class="select-box">
+										<p>If you chose SOL</p>
+										<div class="options-container">
 
-				</div>
+											<div class="option">
+												<input type="radio" class="radio" id="select" name="category">
+													<label for="select">Select color</label>
+											</div>
 
-				<div class="selected">
-					Select the category
-				</div>
-			</div>
+											<div class="option">
+												<input type="radio" class="radio" id="red" name="category">
+													<label for="red">Red</label>
+											</div>
+
+											<div class="option">
+												<input type="radio" class="radio" id="pink" name="category">
+													<label for="pink">Pink</label>
+											</div>
+
+											<div class="option">
+												<input type="radio" class="radio" id="nude" name="category">
+													<label for="nude">Nude</label>
+											</div>
+
+										</div>
+
+										<div class="selected">
+											Select color 
+										</div>
+									</div>
+
+									<!--Lune lip color options-->
+
+									<div class="select-box">
+										<p>If you chose LUNE</p>
+										<div class="options-container">
+
+											<div class="option">
+												<input type="radio" class="radio" id="select" name="category">
+													<label for="select">Select color</label>
+											</div>
+
+											<div class="option">
+												<input type="radio" class="radio" id="red" name="category">
+													<label for="red">Red</label>
+											</div>
+
+											<div class="option">
+												<input type="radio" class="radio" id="pink" name="category">
+													<label for="pink">Pink</label>
+											</div>
+
+											<div class="option">
+												<input type="radio" class="radio" id="nude" name="category">
+													<label for="nude">Nude</label>
+											</div>
+
+										</div>
+											<div class="selected">
+												Select color
+											</div>
+									</div>
+								</div>
+			
+			
 		
 <!--Eye color options-->
 		
-			<h2>MASCARA COLOR</h2>
-			<div class="select-box">
-				<div class="options-container">
+								<h2>MASCARA COLOR</h2>
+								<div class="colors">
 
-					<div class="option">
-						<input type="radio" class="radio" id="select" name="category">
-							<label for="select"></label>
-					</div>
-					<div class="option">
-						<input type="radio" class="radio" id="option1" name="category">
-							<label for="option1">option 1</label>
-					</div>
+								<!--FOR SOL COLORS-->	
+									<div class="select-box">
+										<p>If you chose SOL</p>
+										<div class="options-container">
+											<div class="option">
+												<input type="radio" class="radio" id="select" name="category">
+													<label for="select"></label>
+											</div>
 
-					<div class="option">
-						<input type="radio" class="radio" id="option2" name="category">
-							<label for="option2">option 2</label>
-					</div>
 
+											<div class="option">
+												<input type="radio" class="radio" id="option2" name="category">
+													<label for="option2">Gel/Clear Mascara</label>
+											</div>
+										</div>
+
+										<div class="selected">
+											Select color
+										</div>
+									</div>
+				
+				<!--FOR LUNE COLORS-->
+				
+									<div class="select-box">
+										<p>If you chose LUNE</p>
+										<div class="options-container">
+											<div class="option">
+												<input type="radio" class="radio" id="select" name="category">
+													<label for="select"></label>
+											</div>
+											<div class="option">
+												<input type="radio" class="radio" id="option1" name="category">
+													<label for="option1">Black Mascara</label>
+											</div>
+
+											<div class="option">
+												<input type="radio" class="radio" id="option2" name="category">
+													<label for="option2">Brown Mascara</label>
+											</div>
+										</div>
+
+											<div class="selected">
+												Select color
+											</div>
+									</div>
+								</div>
 				</div>
-
-				<div class="selected">
-					Select the category
-				</div>
-			</div>
-			</div>
 		</div>
-	</div>
 	
 	
 	
@@ -136,132 +221,198 @@
 	
 	
 	<div class="pre-order">
-		<div class="container">
-			<h1>BUILD YOUR OWN</h1>
-		</div>
+		
+			<div class="headliner">
+				<h1><span style="color:#edc224">OR</span> BUILD YOUR OWN!</h1>
+			</div>
 		
 		<div class="selection-area">
 		
 			<div class="order-image">
-				<img src="images/placeholder.webp" alt ="placeholder">
+				<img src="images/lune.jpg" alt ="placeholder">
 			</div>
 		
 <!--Lip color options-->	
 			
-		<div class="selection-options">
+			<div class="selection-options">
 			
-			<h2>STEP 1</h2>
-			<div class="select-box">
-				<div class="options-container">
+				<h2>STEP 1: Choose a Lippie</h2>
+				<p>*Choose 1 lip product</p>
+				<div class="colors">
+					<div class="select-box">
+						<p>Lip Gloss</p>
+						<div class="options-container">
+							<div class="option">
+								<input type="radio" class="radio" id="select" name="category">
+									<label for="select">Select</label>
+							</div>
+							<div class="option">
+								<input type="radio" class="radio" id="option1" name="category">
+									<label for="option1">Red</label>
+							</div>
 
-					<div class="option">
-						<input type="radio" class="radio" id="select" name="category">
-							<label for="select"></label>
-					</div>
-					<div class="option">
-						<input type="radio" class="radio" id="option1" name="category">
-							<label for="option1">option 1</label>
+							<div class="option">
+								<input type="radio" class="radio" id="option2" name="category">
+									<label for="option2">Pink</label>
+							</div>
+
+							<div class="option">
+								<input type="radio" class="radio" id="option2" name="category">
+									<label for="option2">Nude</label>
+							</div>
+						</div>
+
+							<div class="selected">
+								Select color
+							</div>
 					</div>
 
-					<div class="option">
-						<input type="radio" class="radio" id="option2" name="category">
-							<label for="option2">option 2</label>
-					</div>
+					<div class="select-box">
+						<p>Lip Oil</p>
+						<div class="options-container">
+							<div class="option">
+								<input type="radio" class="radio" id="select" name="category">
+									<label for="select">Select</label>
+							</div>
+							<div class="option">
+								<input type="radio" class="radio" id="option1" name="category">
+									<label for="option1">Red</label>
+							</div>
 
+							<div class="option">
+								<input type="radio" class="radio" id="option2" name="category">
+									<label for="option2">Pink</label>
+							</div>
+
+							<div class="option">
+								<input type="radio" class="radio" id="option2" name="category">
+									<label for="option2">Nude</label>
+							</div>
+						</div>
+
+							<div class="selected">
+								Select color
+							</div>
+					</div>
 				</div>
 
-				<div class="selected">
-					Select the category
+		<!--Eye color options-->
+
+				<h2>STEP 2: Choose a Mascara</h2>
+				<div class="select-box">
+					<div class="options-container">
+
+						<div class="option">
+							<input type="radio" class="radio" id="select" name="category">
+								<label for="select">Select</label>
+						</div>
+						<div class="option">
+							<input type="radio" class="radio" id="option1" name="category">
+								<label for="option1">Black</label>
+						</div>
+
+						<div class="option">
+							<input type="radio" class="radio" id="option2" name="category">
+								<label for="option2">Brown</label>
+						</div>
+
+						<div class="option">
+							<input type="radio" class="radio" id="option2" name="category">
+								<label for="option2">Gel/Transparent</label>
+						</div>
+
+					</div>
+
+						<div class="selected">
+							Select color
+						</div>
+				</div>
+
+	<!--Connector color options-->		
+
+
+				<h2>STEP 3: Choose a connector</h2>
+				<div class="select-box">
+					<div class="options-container">
+
+						<div class="option">
+							<input type="radio" class="radio" id="select" name="category">
+								<label for="select"></label>
+						</div>
+						<div class="option">
+							<input type="radio" class="radio" id="option1" name="category">
+								<label for="option1">Pearl White</label>
+						</div>
+
+						<div class="option">
+							<input type="radio" class="radio" id="option2" name="category">
+								<label for="option2">Gold Glaze</label>
+						</div>
+
+					</div>
+
+						<div class="selected">
+							Select the category
+						</div>
 				</div>
 			</div>
+	</div>
+	
+			<div class="info">
+				<h1>Contact Information</h1>
+				<p>When we start taking orders, we will contact you through via email! You will be part of the first group of customers to purchase a MUSE Duo</p>
 
-	<!--Eye color options-->
-
-			<h2>STEP 2</h2>
-			<div class="select-box">
-				<div class="options-container">
-
-					<div class="option">
-						<input type="radio" class="radio" id="select" name="category">
-							<label for="select"></label>
-					</div>
-					<div class="option">
-						<input type="radio" class="radio" id="option1" name="category">
-							<label for="option1">option 1</label>
-					</div>
-
-					<div class="option">
-						<input type="radio" class="radio" id="option2" name="category">
-							<label for="option2">option 2</label>
-					</div>
-
+				<div class="contant-inputs">
+					<input type="text" name="first" placeholder="First Name" autocomplete="off" required>
+					<input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+					<input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
 				</div>
+					<textarea rows="5" cols="60" name="message" placeholder="Enter text here" autocomplete="off" required></textarea>
 
-				<div class="selected">
-					Select the category
-				</div>
-			</div>
-
-<!--Connector color options-->		
-		
-		
-			<h2>STEP 3</h2>
-			<div class="select-box">
-				<div class="options-container">
-
-					<div class="option">
-						<input type="radio" class="radio" id="select" name="category">
-							<label for="select"></label>
-					</div>
-					<div class="option">
-						<input type="radio" class="radio" id="option1" name="category">
-							<label for="option1">option 1</label>
-					</div>
-
-					<div class="option">
-						<input type="radio" class="radio" id="option2" name="category">
-							<label for="option2">option 2</label>
-					</div>
-
-				</div>
-
-				<div class="selected">
-					Select the category
-				</div>
+				<a href="#"><button type="submit">Confirm Pre-Order</button></a>
 			</div>
 		
 		</div>
 	</div>
-		
+	
+	
+	
+	<footer class="footer">
+		<a href="index_v3.html">
+			<img src="images/muselogo.png" class="footerlogo" alt="MUSE logo">		
+		</a>
+	<div class="footer-content">
+		<h4>QUICK LINKS</h4>
+		<ul>
+			<li><a href="index_v3.html">Home</a></li>
+			<li><a href="page2_v3.html">About</a></li>
+			<li><a href="page3_v5.html">Products</a></li>
+			<li><a href="page5_v3.html">Pre-order</a></li>
+			<li><a href="page6_v3.php">Contact</a></li>
+		</ul>
 	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	<footer>
-		<div class="container">
-			<div class="logo">
-				<h1>LOGO GOES HERE</h1>
-			</div>
-				<div class="quicklinks">
-				<h2>Links</h2>
+
+		<div class="footer-content">
+			<h4>CONTACT</h4>
+			<ul>
+				<li>
+					<i class="fa-solid fa-phone"></i><p>+64 20 4092 1051</p>
+				</li>
+				<li>
+					<i class="fa-solid fa-envelope"></i>
+				   <p>muse.cosmetics1005@gmail.com</p>
+				</li>
+				<li>
+					<i class="fa-solid fa-location-dot"></i>
+					<p>Wellington, New Zealand</p>
+				</li>
+			</ul>
+			
+			<p class="copyright">Copyright © MUSE 2026<br> All Rights Reserved</p>
 		</div>
 
-			<div class="quicklinks2">
-				<h2>Links2</h2>
-			</div>
-
-			<div class="contact">
-				<h2>Contact</h2>
-				<ul class="info">
-				</ul>
-			</div>
-		</div>
-	</footer>	
+	</footer>
+		
 	
 	<script>
 		const selectBoxes = document.querySelectorAll(".select-box");
