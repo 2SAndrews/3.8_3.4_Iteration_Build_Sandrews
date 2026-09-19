@@ -5,7 +5,7 @@
 
 <head>
 
-    <title>MUSE | SHOP</title>
+    <title>MUSE | PRODUCTS</title>
 		<link rel="icon" type="image/x-icon" href="images/logo.png">
 
 		<meta charset="utf-8">
@@ -21,7 +21,7 @@
 	
 	 <!-- Import the web page's style sheet -->
 		
-		<link rel="stylesheet" href="css/product.css">
+		<link rel="stylesheet" href="css/product_v3.css">
 		<script src="https://kit.fontawesome.com/ab3ad18ef2.js" crossorigin="anonymous"></script>
 
   
@@ -83,12 +83,7 @@
 		
 				</div>
 					
-				<div class="quantity-select">
-					<p>Quantity</p>
-					<input type="number" value="1">
-				</div>
-					
-				<button>Add to cart</button>	
+				<button>GO TO PRE-ORDER</button>	
 			</form>
 			</div>
 			
@@ -142,12 +137,7 @@
 		
 				</div>
 					
-				<div class="quantity-select">
-					<p>Quantity</p>
-					<input type="number" value="1">
-				</div>
-					
-				<button>Add to cart</button>	
+				<button>GO TO PRE-ORDER</button>	
 			</form>
 			</div>
 			
@@ -156,9 +146,63 @@
 	
 	
 	
+	<div class="headliner">
+		<h1>LOREM IPSUM RANDOM!</h1>
+	</div>
 	
 	
 	
+	
+	<div class="byo">
+		<div class="container">
+			<div class="row">
+				
+				<h1>Timings</h1>
+			</div>
+			<div class="icons">
+				<div class="icon">
+					<div class="image-section">
+						<img src="images/placeholder.webp" alt="time" >
+					</div>
+					<div class="icon-content">
+						<h4>lorem</h4>
+						<p>lorem ipsum important</p>
+					</div>
+				</div>
+				
+				<div class="icon">
+					<div class="image-section">
+						<img src="images/placeholder.webp" alt="place">
+					</div>
+					<div class="icon-content">
+						<h4>lorem</h4>
+						<p>lorem ipsum important</p>
+					</div>
+				</div>
+				
+				<div class="icon">
+					<div class="image-section">
+						<img src="images/placeholder.webp" alt="date">
+					</div>
+					<div class="icon-content">
+						<h4>lorem</h4>
+						<p>lorem ipsum important</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+	<div class="headliner">
+		<h1>LOREM IPSUM RANDOM?</h1>
+	</div>
+	
+	<div class="button-container">
+		<button class="button">LOREM IPSUM</button>
+	</div>
+		
 	
 	
 	
@@ -209,7 +253,7 @@
 	btn[2].onclick = function(){
 		productImg.src = "images/placeholder.webp";
 		for(bt of btn){
-			bt.classlist.remove("active");
+			bt.classList.remove("active");
 		}
 		this.classList.add("active");
 	}
