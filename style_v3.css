@@ -140,6 +140,13 @@ body {
 	width: 400px
 	
 }
+.slider-images h2{
+	font-size: 14px;
+	text-align: center;
+	color: grey;
+	margin-bottom: 30px;
+	
+}
 
 #explore  h1{
 	font-size: 50px;
@@ -238,7 +245,7 @@ body {
 	display: block;
 }
 
-.footer-content h4 {
+.footer-content h2 {
     color: #801414;
     margin-bottom: 1.5rem;
     font-size: 20px;
