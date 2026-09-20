@@ -79,24 +79,24 @@
 				<div class="contact-form">
 					<form action="connect.php" method="post">
 						<div class="input-container focus">
-							<input type="text" name="name" class="input" placeholder="Your name"><!--for Full name-->
-							<label for="">FULL NAME</label>
+							<input type="text" name="name" class="input" placeholder="Your name" id="label"><!--for Full name-->
+							<label for="label">FULL NAME</label>
 							<span>FULL NAME</span>
 						</div>
 						<div class="input-container focus">
-							<input type="email" name="email" class="input" placeholder=" Your email "><!--For email-->
-							<label for="">EMAIL</label>
+							<input type="email" name="email" class="input" placeholder=" Your email" id="email"><!--For email-->
+							<label for="email">EMAIL</label>
 							<span>EMAIL</span>
 						</div>
 						<div class="input-container focus">
-							<input type="tel" name="phone" class="input" placeholder="Your phone number "><!--For phone number-->
-							<label for="">PHONE</label>
+							<input type="tel" name="phone" class="input" placeholder="Your phone number " id="phone"><!--For phone number-->
+							<label for="phone">PHONE</label>
 							<span>PHONE</span>
 							
 						</div>
 						<div class="input-container textarea focus">
-							<textarea name="message" class="input" placeholder=" Type message " ></textarea><!--For the message input fix this tmrw morning-->
-							<label for="">TYPE HERE</label>
+							<textarea name="message" class="input" placeholder=" Type message " id="message" ></textarea><!--For the message input fix this tmrw morning-->
+							<label for="message">TYPE HERE</label>
 							<span>TYPE HERE</span>
 						</div>
 						<input type="submit" value="Send" class="btn">
@@ -113,7 +113,7 @@
 			<img src="images/muselogo.png" class="footerlogo" alt="MUSE logo">		
 		</a>
 	<div class="footer-content">
-		<h4>QUICK LINKS</h4>
+		<h2>QUICK LINKS</h2>
 		<ul>
 			<li><a href="index_v3.html">Home</a></li>
 			<li><a href="page2_v3.html">About</a></li>
@@ -124,7 +124,7 @@
 	</div>
 
 		<div class="footer-content">
-			<h4>CONTACT</h4>
+			<h2>CONTACT</h2>
 			<ul>
 				<li>
 					<i class="fa-solid fa-phone"></i><p>+64 20 4092 1051</p>
