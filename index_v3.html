@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+
+    <title>MUSE | HOME</title>
+		<link rel="icon" type="image/x-icon" href="images/muselogo.png">
+
+		<meta charset="utf-8">
+
+		<meta name="keywords" content="MUSE, cosmetics, make-up"/>
+
+		<meta name="author" content="Sherlyn Andrews"/>
+
+		<meta name="description" content="Find a new product tailored for you"/>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	
+	 <!-- Import the web page's style sheet -->
+		
+		<link rel="stylesheet" href="css/style_v3.css">
+		<script src="https://kit.fontawesome.com/ab3ad18ef2.js" crossorigin="anonymous"></script>
+
+  
+</head>
+	
+<body>
+	
+	
+	<nav class="navbar">
+		<ul class="nav-links">
+			<li><a href="index_v3.html">HOME</a></li>
+			<li><a href="page2_v3.html">ABOUT</a></li>
+			<li><a href="page3_v5.html">PRODUCTS</a></li>
+			<li><a href="page5_v3.html">PRE-ORDER</a></li>
+			<li><a href="page6_v3.php">CONTACT</a></li>
+		</ul>
+		
+	</nav>
+	
+	<div class="main-header">
+		<div class="container">
+		</div>
+	</div>
+	
+	
+	<section id="question">
+		<div class="container">
+			<h1>“Bro where is my lip gloss, my bag is a mess”</h1>
+			<h2>- said our friend who actually forgot her lip gloss</h2>
+			<p>This is a problem that majority makeup users face, with having to carry around too many 
+different products for simple touch ups. What if this didn’t have to be a problem?
+</p><br>
+			<p>WE CAN FIX IT</p>
+		</div>
+	</section>
+	
+	<div class="headliner">
+		<h1>LOOK AT OUR RANGE!</h1>
+	</div>
+	<section id="explore">
+	  <div class="container">
+			<div class="slider-images">
+				<div class="slider-img">
+					<img src="images/mascara.jpg" alt="mascara">
+					<h1>Lashes</h1>
+					<h2>Attribution: Image by IGBrandingVault</h2>
+				</div>
+				<div class="slider-img">
+					<img src="images/lipgloss.jpeg" alt="lipgloss">
+					<h1>Lippies</h1>
+					<h2>Attribution: Image by IGBrandingVault</h2> 
+					
+				</div>
+				<div class="slider-img">
+					<img src="images/keychain.jpg" alt="keychain/charm">
+					<h1>Charms</h1>
+					<h2>Attribution: Image by IGBrandingVault</h2>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	
+		<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script><!-- jQuery library link, java script below needs this library to work -->
+	
+	
+	 <script>
+	 $(document).ready(function() {
+    $('.slider-img').on('click', function() {		
+      $('.slider-img').css({
+        width: '300px',
+        height: '', 
+        zIndex: '',
+      });
+
+      // when the card is clicked it expands
+      $(this).css({
+        width: '400px',
+        height: '500px',
+        zIndex: 10
+      });
+    });
+  });
+</script> 
+	
+	
+	<section id="market">
+		<div class="container">
+			<div class="text">
+				<h1>Meet <br> us at our <br> first Market!</h1>
+			</div>
+				<div class="image">
+					<img src="images/market.jpg" alt="Brewtown farmers market"><!--Note: always add alt for people who use screen readers for accessbility-->
+				</div>
+		</div>
+	
+	
+
+	<footer class="footer">
+		<a href="index_v3.html">
+			<img src="images/muselogo.png" class="footerlogo" alt="MUSE logo">		
+		</a>
+	<div class="footer-content">
+		
+		<h2>QUICK LINKS</h2>
+			<ul>
+				<li><a href="index_v3.html">Home</a></li>
+				<li><a href="page2_v3.html">About</a></li>
+				<li><a href="page3_v5.html">Products</a></li>
+				<li><a href="page5_v3.html">Pre-order</a></li>
+				<li><a href="page6_v3.php">Contact</a></li>
+			</ul>
+	</div>
+
+		<div class="footer-content">
+			<h2>CONTACT</h2>
+			<ul>
+				<li>
+					<i class="fa-solid fa-phone"></i><p>+64 20 4092 1051</p>
+				</li>
+				<li>
+					<i class="fa-solid fa-envelope"></i>
+				   <p>muse.cosmetics1005@gmail.com</p>
+				</li>
+				<li>
+					<i class="fa-solid fa-location-dot"></i>
+					<p>Wellington, New Zealand</p>
+				</li>
+			</ul>
+			
+			<p class="copyright">Copyright © MUSE 2026<br> All Rights Reserved</p>
+		</div>
+
+	</footer>
+		
+</section>
+	
+</body>
+</html>
