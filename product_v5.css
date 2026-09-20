@@ -504,6 +504,12 @@ body{
 	
 }
 
+.attri {
+	font-size: 10px;
+	color: pink;
+
+}
+
 /*BUTTON TO PRE-ORDER*/
 
 .headliner h1{
@@ -532,6 +538,7 @@ body{
 	border-radius: 100px;
 	border: 2px solid #801414;	
 	color: #801414;
+	text-decoration: none;
 }
 
 
@@ -559,7 +566,7 @@ body{
 	display: block;
 }
 
-.footer-content h4 {
+.footer-content h2 {
     color: #801414;
     margin-bottom: 1.5rem;
     font-size: 20px;
